@@ -3,9 +3,14 @@
 A Generalized Deep Entropy Scaling Architecture Framework to Predict Viscosities as proposed in the following publication:
 
 ```
-xxx
+@article{fleck2025generalized,
+  title={A Generalized Deep Entropy Scaling Architecture Framework to Predict Viscosities},
+  author={Fleck M, Klenk T, Darouich S, Spera MBM, Hansen N.},
+  journal={ChemRxiv preprint chemrxiv-2025-jrjj9},
+  doi={doi:10.26434/chemrxiv-2025-jrjj9},
+  year={2025}
+}
 ```
-
 
 ### Notebooks:
 
