@@ -1,8 +1,8 @@
 # deep-entropy-scaling
 
-IF YOURE LOOKING FOR THE GITHUB OF "Physics-informed multi-fidelity Gaussian process: modeling the effect of water and temperature on the viscosity of a deep eutectic solvent" PLEASE CHECK:
+IF YOURE LOOKING FOR THE GITHUB OF "Physics-informed multi-fidelity Gaussian process: modeling the effect of water and temperature on the viscosity of a deep eutectic solvent":
 
-[Physics-informed multi-fidelity Gaussian process: modeling the effect of water and temperature on the viscosity of a deep eutectic solvent]([https://link-url-here.org](https://github.com/maxfleck/DES_multifidelity_eyring))
+[### PLEASE GO HERE]([https://link-url-here.org](https://github.com/maxfleck/DES_multifidelity_eyring))
 
 
 A Generalized Deep Entropy Scaling Architecture Framework to Predict Viscosities as proposed in the following publication:
