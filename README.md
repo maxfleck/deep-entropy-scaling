@@ -12,13 +12,15 @@ A Generalized Deep Entropy Scaling Architecture Framework to Predict Viscosities
 }
 ```
 
-### Notebooks:
+## Notebooks:
 
-Start:
+### Start:
 
 - demo: example that shows how to use the full model
 
-Advanced:
+### Advanced:
+
+We cannot publish training data. Therefore you wont be able to run the following notebooks. Use your own data and build your dataset. Then you can load this data and train your models.
 
 - main_train: training setup to train the full architecture
 - main_denoise: training setup to train denoising
@@ -29,10 +31,11 @@ The model was trained with PC-SAFT parameters from the following publications. U
 If you use them, please cite the following paper:
 
 ```
-@article{winter2023understanding,
+@article{winter2025understanding,
   title={Understanding the language of molecules: Predicting pure component parameters for the PC-SAFT equation of state from SMILES},
   author={Winter, Benedikt and Rehner, Philipp and Esper, Timm and Schilling, Johannes and Bardow, Andr{\'e}},
-  journal={arXiv preprint arXiv:2309.12404},
-  year={2023}
+  journal={Digital Discovery},
+  year={2025},
+  publisher={Royal Society of Chemistry}
 }
 ```
