@@ -14,6 +14,18 @@ A Generalized Deep Entropy Scaling Architecture Framework to Predict Viscosities
 
 ## Notebooks:
 
+### Quickstart:
+
+install [uv package manager](https://docs.astral.sh/uv/getting-started/installation/)
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+then run (all packages will be downloaded and saved locally)
+```
+uv run jupyter-lab
+```
+
 ### Start:
 
 - demo: example that shows how to use the full model
