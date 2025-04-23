@@ -1,1 +1,6 @@
 .ipynb_checkpoints/
+.venv/
+# Byte-compiled / optimized / DLL files
+/deep_entropy_scaling/__pycache__/
+*.py[cod]
+

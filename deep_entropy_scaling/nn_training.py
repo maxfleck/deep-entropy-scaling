@@ -346,9 +346,16 @@ def load_model0(config):
         except ValueError:
             model_state = torch.load(config["checkpoint_path"],
                                      weights_only=True)
-
-        model.load_state_dict(model_state)
-
+        print("load1")
+    else:
+        try:
+            model_state, _ = torch.load(config["state_dict_path"],
+                                        weights_only=True)
+        except ValueError:
+            model_state = torch.load(config["state_dict_path"],
+                                     weights_only=True)        
+        print("load0")
+    model.load_state_dict(model_state)
     return model
 
 

@@ -1,0 +1,19 @@
+[project]
+name = "deep-entropy-scaling"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.12.3"
+dependencies = [
+	"torch",
+	"feos==0.4.3",
+	"jupyter",
+	"pandas",
+	"scikit-learn",
+	"joblib",
+	"matplotlib",
+	"toml",
+	"ray",
+	"ray[train]",
+	"si_units"
+]

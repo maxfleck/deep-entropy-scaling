@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from feos.si import * # SI numbers and constants
+#from si_units import * # SI numbers and constants
 from feos.pcsaft import *
 from feos.eos import *
 import feos
