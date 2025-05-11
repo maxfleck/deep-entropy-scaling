@@ -13,9 +13,10 @@ from torch.utils.data import DataLoader
 from ray.train import Checkpoint
 from ray import train
 
-from deep_entropy_scaling.nn_model import model0_a, model0_ci, model0_ci_poly, model0_ci_poly2
-from deep_entropy_scaling.nn_model import model0_ci_norm, model0_ci_enorm, model0_ci_norm2
-from deep_entropy_scaling.nn_model import model0_ci_n2pe, model0_ci_p2n2
+#from deep_entropy_scaling.nn_model import model0_a, model0_ci, model0_ci_poly, model0_ci_poly2
+#from deep_entropy_scaling.nn_model import model0_ci_norm, model0_ci_enorm, model0_ci_norm2
+#from deep_entropy_scaling.nn_model import model0_ci_n2pe, model0_ci_p2n2
+from deep_entropy_scaling.nn_model import DeepESNet
 from deep_entropy_scaling.nn_dataset import dataset, minmax_from_json
 
 
@@ -49,313 +50,36 @@ def load_model0(config):
     embedding_size = config["embedding_size"]
     entropy_feature_size = config["n_entropy_features"]
     ref_feature_size = config["n_features_ref"]
-
-    if  config["build"] == "model0_ci":
-        print("load model0_ci:", config["build"])
-        model = model0_ci(embedding_size, entropy_feature_size,
-                          ref_feature_size)
-        # if "n_nodes_feature_ref" in config.keys():
-        a = [int(config["n_nodes_feature_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_feature_net(layers)
-        # if "n_nodes_ref" in config.keys():
-        a = [int(config["n_nodes_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_parameter_net(layers)
-        # if "n_nodes_entropy_feature" in config.keys():
-        a = [int(config["n_nodes_entropy_feature"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_entropy_feature_net(layers)
-        # if "n_nodes_parameter" in config.keys():
-        a = [int(config["n_nodes_parameter"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_parameter_net(layers)
-    elif  config["build"] == "model0_ci_norm":
-        print("load model0_ci_norm:", config["build"])
-        model = model0_ci_norm(embedding_size, entropy_feature_size,
-                          ref_feature_size)
-        # if "n_nodes_feature_ref" in config.keys():
-        a = [int(config["n_nodes_feature_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_feature_net(layers)
-        # if "n_nodes_ref" in config.keys():
-        a = [int(config["n_nodes_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_parameter_net(layers)
-        # if "n_nodes_entropy_feature" in config.keys():
-        a = [int(config["n_nodes_entropy_feature"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_entropy_feature_net(layers)
-        # if "n_nodes_parameter" in config.keys():
-        a = [int(config["n_nodes_parameter"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_parameter_net(layers)    
-    elif  config["build"] == "model0_ci_enorm":
-        print("load model0_ci_enorm:", config["build"])
-        model = model0_ci_enorm(embedding_size, entropy_feature_size,
-                          ref_feature_size)
-        # if "n_nodes_feature_ref" in config.keys():
-        a = [int(config["n_nodes_feature_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_feature_net(layers)
-        # if "n_nodes_ref" in config.keys():
-        a = [int(config["n_nodes_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_parameter_net(layers)
-        # if "n_nodes_entropy_feature" in config.keys():
-        a = [int(config["n_nodes_entropy_feature"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_entropy_feature_net(layers)
-        # if "n_nodes_parameter" in config.keys():
-        a = [int(config["n_nodes_parameter"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_parameter_net(layers)            
-    elif  config["build"] == "model0_ci_norm2":
-        print("load model0_ci_norm2:", config["build"])
-        model = model0_ci_norm2(embedding_size, entropy_feature_size,
-                          ref_feature_size)
-        # if "n_nodes_feature_ref" in config.keys():
-        a = [int(config["n_nodes_feature_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_feature_net(layers)
-        # if "n_nodes_ref" in config.keys():
-        a = [int(config["n_nodes_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_parameter_net(layers)
-        # if "n_nodes_entropy_feature" in config.keys():
-        a = [int(config["n_nodes_entropy_feature"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_entropy_feature_net(layers)
-        # if "n_nodes_parameter" in config.keys():
-        a = [int(config["n_nodes_parameter"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_parameter_net(layers)  
-    elif  config["build"] == "model0_ci_n2":
-        print("load model0_ci_n2:", config["build"])
-        model = model0_ci_norm2(embedding_size, entropy_feature_size,
-                          ref_feature_size)
-        # if "n_nodes_feature_ref" in config.keys():
-        a = [int(config["n_nodes_feature_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_feature_net(layers)
-        # if "n_nodes_ref" in config.keys():
-        a = [int(config["n_nodes_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_parameter_net(layers)
-        # if "n_nodes_entropy_feature" in config.keys():
-        a = [int(config["n_nodes_entropy_feature"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_entropy_feature_net(layers)
-        # if "n_nodes_parameter" in config.keys():
-        a = [int(config["n_nodes_parameter"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_parameter_net(layers)          
-    elif config["build"] == "model0_ci_poly":
-        print("load model0_ci_poly:", config["build"])
-        model = model0_ci_poly(embedding_size, entropy_feature_size,
-                               ref_feature_size)
-        # if "n_nodes_feature_ref" in config.keys():
-        a = [int(config["n_nodes_feature_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_feature_net(layers)
-        # if "n_nodes_ref" in config.keys():
-        a = [int(config["n_nodes_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_parameter_net(layers)
-        # if "n_nodes_entropy_feature" in config.keys():
-        # a = [int(config["n_nodes_entropy_feature"])]
-        # b = int(config["n_layers_parameter"])
-        # layers = a*b
-        # model.build_entropy_feature_net(layers)
-        # if "n_nodes_parameter" in config.keys():
-        a = [int(config["n_nodes_parameter"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_parameter_net(layers)
-    elif config["build"] == "model0_ci_n2pe":
-        print("load model0_ci_n2pe:", config["build"])
-        model = model0_ci_n2pe(embedding_size, entropy_feature_size,
-                               ref_feature_size)
-        # if "n_nodes_feature_ref" in config.keys():
-        a = [int(config["n_nodes_feature_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_feature_net(layers)
-        # if "n_nodes_ref" in config.keys():
-        a = [int(config["n_nodes_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_parameter_net(layers)
-        # if "n_nodes_entropy_feature" in config.keys():
-        # a = [int(config["n_nodes_entropy_feature"])]
-        # b = int(config["n_layers_parameter"])
-        # layers = a*b
-        # model.build_entropy_feature_net(layers)
-        # if "n_nodes_parameter" in config.keys():
-        a = [int(config["n_nodes_parameter"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_parameter_net(layers)        
-    elif config["build"] == "model0_ci_poly_eta":
-        print("load model0_ci_poly:", config["build"])
-        model = model0_ci_poly(embedding_size, entropy_feature_size,
-                               ref_feature_size)
-        # if "n_nodes_feature_ref" in config.keys():
-        a = [int(config["n_nodes_feature_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_feature_net(layers)
-        # if "n_nodes_ref" in config.keys():
-        a = [int(config["n_nodes_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_parameter_net(layers)
-        # if "n_nodes_entropy_feature" in config.keys():
-        # a = [int(config["n_nodes_entropy_feature"])]
-        # b = int(config["n_layers_parameter"])
-        # layers = a*b
-        # model.build_entropy_feature_net(layers)
-        # if "n_nodes_parameter" in config.keys():
-        a = [int(config["n_nodes_parameter"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_parameter_net(layers)
-    elif config["build"] == "model0_ci_poly2":
-        print("load model0_ci_poly2:", config["build"])
-        model = model0_ci_poly2(embedding_size, entropy_feature_size,
-                                ref_feature_size)
-        # if "n_nodes_feature_ref" in config.keys():
-        # a = [int(config["n_nodes_feature_ref"])]
-        # b = int(config["n_layers_ref"])
-        # layers = a*b
-        # model.build_ref_feature_net(layers)
-        # if "n_nodes_ref" in config.keys():
-        a = [int(config["n_nodes_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_parameter_net(layers)
-        # if "n_nodes_entropy_feature" in config.keys():
-        # a = [int(config["n_nodes_entropy_feature"])]
-        # b = int(config["n_layers_parameter"])
-        # layers = a*b
-        # model.build_entropy_feature_net(layers)
-        # if "n_nodes_parameter" in config.keys():
-        a = [int(config["n_nodes_parameter"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_parameter_net(layers)
-    elif config["build"] ==  "model0_ci_p2n2":
-        print("load model0_ci_p2n2:", config["build"])
-        model = model0_ci_p2n2(embedding_size, entropy_feature_size,
-                                ref_feature_size)
-        # if "n_nodes_feature_ref" in config.keys():
-        # a = [int(config["n_nodes_feature_ref"])]
-        # b = int(config["n_layers_ref"])
-        # layers = a*b
-        # model.build_ref_feature_net(layers)
-        # if "n_nodes_ref" in config.keys():
-        a = [int(config["n_nodes_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_parameter_net(layers)
-        # if "n_nodes_entropy_feature" in config.keys():
-        # a = [int(config["n_nodes_entropy_feature"])]
-        # b = int(config["n_layers_parameter"])
-        # layers = a*b
-        # model.build_entropy_feature_net(layers)
-        # if "n_nodes_parameter" in config.keys():
-        a = [int(config["n_nodes_parameter"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_parameter_net(layers)        
-    elif config["build"] == "model0_ci_poly2_eta":
-        print("load model0_ci_poly2:", config["build"])
-        model = model0_ci_poly2(embedding_size, entropy_feature_size,
-                                ref_feature_size)
-        # if "n_nodes_feature_ref" in config.keys():
-        # a = [int(config["n_nodes_feature_ref"])]
-        # b = int(config["n_layers_ref"])
-        # layers = a*b
-        # model.build_ref_feature_net(layers)
-        # if "n_nodes_ref" in config.keys():
-        a = [int(config["n_nodes_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_parameter_net(layers)
-        # if "n_nodes_entropy_feature" in config.keys():
-        # a = [int(config["n_nodes_entropy_feature"])]
-        # b = int(config["n_layers_parameter"])
-        # layers = a*b
-        # model.build_entropy_feature_net(layers)
-        # if "n_nodes_parameter" in config.keys():
-        a = [int(config["n_nodes_parameter"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_parameter_net(layers)
-    else:
-        print("load model0_a:", config["build"])
-        model = model0_a(embedding_size, entropy_feature_size,
-                         ref_feature_size)
-        # if "n_nodes_feature_ref" in config.keys():
-        a = [int(config["n_nodes_feature_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_feature_net(layers)
-        # if "n_nodes_ref" in config.keys():
-        a = [int(config["n_nodes_ref"])]
-        b = int(config["n_layers_ref"])
-        layers = a*b
-        model.build_ref_parameter_net(layers)
-        # if "n_nodes_entropy_feature" in config.keys():
-        a = [int(config["n_nodes_entropy_feature"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_entropy_feature_net(layers)
-        # if "n_nodes_parameter" in config.keys():
-        a = [int(config["n_nodes_parameter"])]
-        b = int(config["n_layers_parameter"])
-        layers = a*b
-        model.build_parameter_net(layers)
-
+    conf = config
+    model = DeepESNet(conf["embedding_size"],1,
+                      conf["n_layers_parameter"],conf["n_layers_parameter"],
+                      conf["n_nodes_parameter"],conf["n_nodes_entropy_feature"],
+                      conf["n_features"],
+                      1,
+                      conf["n_layers_ref"],conf["n_layers_ref"],
+                      conf["n_nodes_ref"],conf["n_nodes_feature_ref"],
+                      conf["n_features_ref"],                  
+                     )
     if "checkpoint_path" in config.keys() and config["checkpoint_path"]:
         try:
-            model_state, _ = torch.load(config["checkpoint_path"],
-                                        weights_only=True)
-        except ValueError:
-            model_state = torch.load(config["checkpoint_path"],
-                                     weights_only=True)
-        print("load1")
-    else:
-        try:
-            model_state, _ = torch.load(config["state_dict_path"],
-                                        weights_only=True)
-        except ValueError:
-            model_state = torch.load(config["state_dict_path"],
-                                     weights_only=True)        
-        print("load0")
-    model.load_state_dict(model_state)
+        #if "checkpoint_path" in config.keys() and config["checkpoint_path"]:
+            try:
+                model_state, _ = torch.load(config["checkpoint_path"],
+                                            weights_only=True)
+            except ValueError:
+                model_state = torch.load(config["checkpoint_path"],
+                                         weights_only=True)
+            print("load1")
+        #else:
+        except:
+            try:
+                model_state, _ = torch.load(config["state_dict_path"],
+                                            weights_only=True)
+            except ValueError:
+                model_state = torch.load(config["state_dict_path"],
+                                         weights_only=True)        
+            print("load0")
+        model.load_state_dict(model_state)
     return model
 
 
