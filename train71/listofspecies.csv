@@ -1,0 +1,732 @@
+ethylbenzene , 100-41-4 , n-alkylbenzenes , test/train/val
+benzonitrile , 100-47-0 , nitriles , test/train/val
+cyclohexylmethanol , 100-49-2 , unknown , test/train/val
+benzaldehyde , 100-52-7 , aldehydes , test/train/val
+anisole , 100-66-3 , other ethers/diethers , test/train/val
+methylsulfanylbenzene , 100-68-5 , sulfides/thiophenes , val
+3-methylundecane , 1002-43-3 , methylalkanes , test/train/val
+chlorosulfanyl thiohypochlorite , 10025-67-9 , unknown , test/train/val
+trichlorosilane , 10025-78-2 , silanes/siloxanes , test/train/val
+tetrachlorosilane , 10026-04-7 , silanes/siloxanes , val
+cyclopentanamine , 1003-03-8 , other amines, imines , train/val
+2,5-dimethyloxolane , 1003-38-9 , other ethers/diethers , val
+n-cyclohexylcyclohexanamine , 101-83-7 , other amines, imines , val
+phenoxybenzene , 101-84-8 , other ethers/diethers , test/train/val
+1,4-ditert-butylbenzene , 1012-72-2 , other alkylbenzenes , val
+n,n-dipropylpropan-1-amine , 102-69-2 , other aliphatic amines , test/train/val
+n,n-dibutylbutan-1-amine , 102-82-9 , other aliphatic amines , test/train/val
+(e)-1-chloro-3,3,3-trifluoroprop-1-ene , 102687-65-0 , unknown , test
+2-ethylhexyl acetate , 103-09-3 , acetates , train
+2-ethylhexyl prop-2-enoate , 103-11-7 , unsaturated aliphatic esters , test
+n-benzyl-1-phenylmethanamine , 103-49-1 , unknown , test
+phenylmethoxymethylbenzene , 103-50-4 , other ethers/diethers , train
+propylbenzene , 103-65-1 , n-alkylbenzenes , test
+ethoxybenzene , 103-73-1 , other ethers/diethers , test/train/val
+n,n-dimethyl-1-phenylmethanamine , 103-83-3 , unknown , val
+1-methoxy-4-[(e)-prop-1-enyl]benzene , 104-46-1 , other ethers/diethers , test
+butylbenzene , 104-51-8 , n-alkylbenzenes , test/train/val
+(e)-3-phenylprop-2-enal , 104-55-2 , unknown , test
+decylbenzene , 104-72-3 , n-alkylbenzenes , test/train/val
+2-ethylhexan-1-ol , 104-76-7 , other aliphatic alcohols , val
+n',n'-diethylpropane-1,3-diamine , 104-78-9 , unknown , test/train/val
+4-methylbenzaldehyde , 104-87-0 , aldehydes , test/train/val
+tridecanal , 10486-19-8 , aldehydes , train/val
+2-methylpentan-1-ol , 105-30-6 , other aliphatic alcohols , val
+ethyl propanoate , 105-37-3 , propionates and butyrates , test/train/val
+diethyl propanedioate , 105-53-3 , other saturated aliphatic esters , train/val
+ethyl butanoate , 105-54-4 , propionates and butyrates , test
+1,1-diethoxyethane , 105-57-7 , other ethers/diethers , val
+propyl butanoate , 105-66-8 , propionates and butyrates , test/train/val
+3-methylbutyl propanoate , 105-68-0 , unknown , test/train/val
+dibutyl hexanedioate , 105-99-7 , unknown , test/train/val
+dipropyl hexanedioate , 106-19-4 , unknown , test/train/val
+(2e)-3,7-dimethylocta-2,6-dien-1-ol , 106-24-1 , unknown , test
+3-methylbutyl butanoate , 106-27-4 , propionates and butyrates , test/train/val
+ethyl heptanoate , 106-30-9 , unknown , test/train/val
+butanoyl butanoate , 106-31-0 , anhydrides , test/train/val
+ethyl octanoate , 106-32-1 , other saturated aliphatic esters , test
+ethyl dodecanoate , 106-33-2 , other saturated aliphatic esters , test
+heptan-3-one , 106-35-4 , ketones , val
+propyl propanoate , 106-36-5 , propionates and butyrates , test
+1,4-dibromobenzene , 106-37-6 , c, h, br compounds , test/train
+1-bromo-4-methylbenzene , 106-38-7 , c, h, br compounds , train/val
+1,4-xylene , 106-42-3 , other alkylbenzenes , test/train/val
+dimethyl butanedioate , 106-65-0 , other saturated aliphatic esters , val
+octan-3-one , 106-68-3 , ketones , test
+methyl hexanoate , 106-70-7 , unknown , test/train/val
+methyl heptanoate , 106-73-0 , unknown , test
+2-ethyloxirane , 106-88-7 , epoxides , val
+1,2-dibromoethane , 106-93-4 , c, h, br compounds , test
+1-bromopropane , 106-94-5 , c, h, br compounds , test/train/val
+butane , 106-97-8 , n-alkanes , test/train/val
+buta-1,3-diene , 106-99-0 , dialkenes , test/train/val
+chloro-dimethylsilane , 1066-35-9 , silanes/siloxanes , val
+hydroxy(trimethyl)silane , 1066-40-6 , silanes/siloxanes , test
+3-ethyl-3-methylpentane , 1067-08-9 , other alkanes , train
+3,3-diethylpentane , 1067-20-5 , other alkanes , test/train/val
+ethenyl-tris(2-methoxyethoxy)silane , 1067-53-4 , silanes/siloxanes , test
+prop-2-enal , 107-02-8 , aldehydes , val
+propane-1-thiol , 107-03-9 , mercaptans , val
+3-chloroprop-1-ene , 107-05-1 , c3 & higher aliphatic chlorides , test/train/val
+1,2-dichloroethane , 107-06-2 , c1/c2 aliphatic chlorides , test/train/val
+1-iodopropane , 107-08-4 , c, h, i compounds , test/train/val
+propan-1-amine , 107-10-8 , n-aliphatic primary amines , test/train/val
+prop-2-en-1-amine , 107-11-9 , other amines, imines , train
+propanenitrile , 107-12-0 , nitriles , test/train/val
+prop-2-enenitrile , 107-13-1 , nitriles , test/train/val
+ethane-1,2-diamine , 107-15-3 , other amines, imines , test/train/val
+prop-2-en-1-ol , 107-18-6 , other aliphatic alcohols , test/train/val
+prop-2-yn-1-ol , 107-19-7 , other aliphatic alcohols , test/train
+methyl formate , 107-31-3 , formates , test/train/val
+trimethyl(trimethylsilyloxy)silane , 107-46-0 , silanes/siloxanes , test/train/val
+dimethyl-bis(trimethylsilyloxy)silane , 107-51-7 , silanes/siloxanes , test/train/val
+2-methylpentane , 107-83-5 , methylalkanes , test
+pentan-2-one , 107-87-9 , ketones , test
+2,7-dimethyloctane , 1072-16-8 , dimethylalkanes , test
+1-methyl-2-propylbenzene , 1074-17-5 , other alkylbenzenes , val
+1,2,3,4,5,6-hexadeuteriobenzene , 1076-43-3 , unknown , test/train/val
+hexylbenzene , 1077-16-3 , n-alkylbenzenes , test/train/val
+heptylbenzene , 1078-71-3 , n-alkylbenzenes , test/train/val
+1-nitropropane , 108-03-2 , c, h, no2 compounds , test/train/val
+ethenyl acetate , 108-05-4 , acetates , test
+2,4-dimethylpentane , 108-08-7 , dimethylalkanes , train/val
+4-methylpentan-2-one , 108-10-1 , ketones , test/train/val
+4-methylpentan-2-ol , 108-11-2 , other aliphatic alcohols , test/train/val
+1-(dimethylamino)propan-2-ol , 108-16-7 , unknown , test/train
+n-propan-2-ylpropan-2-amine , 108-18-9 , other aliphatic amines , test/train/val
+2-propan-2-yloxypropane , 108-20-3 , aliphatic ethers , test/train/val
+propan-2-yl acetate , 108-21-4 , acetates , test/train/val
+acetyl acetate , 108-24-7 , anhydrides , test/train/val
+5-methyloxolan-2-one , 108-29-2 , other saturated aliphatic esters , test/train/val
+furan-2,5-dione , 108-31-6 , anhydrides , train/val
+1,3-xylene , 108-38-3 , other alkylbenzenes , test/train/val
+1-chloro-3-methylbenzene , 108-41-8 , unknown , test/train/val
+oxane-2,6-dione , 108-55-4 , anhydrides , test/train/val
+dimethyl propanedioate , 108-59-8 , other saturated aliphatic esters , test/val
+ethyl 3-methylbutanoate , 108-64-5 , other saturated aliphatic esters , test/train/val
+1,3,5-trimethylbenzene , 108-67-8 , other alkylbenzenes , test
+2,6-dimethylheptan-4-ol , 108-82-7 , other aliphatic alcohols , train
+2,6-dimethylheptan-4-one , 108-83-8 , ketones , train/val
+bromocyclohexane , 108-85-0 , unknown , train/val
+bromobenzene , 108-86-1 , c, h, br compounds , test
+toluene , 108-88-3 , n-alkylbenzenes , test/train/val
+cyclohexanamine , 108-91-8 , other amines, imines , test/train/val
+cyclohexanone , 108-94-1 , ketones , val
+benzenethiol , 108-98-5 , mercaptans , test
+nonylbenzene , 1081-77-2 , n-alkylbenzenes , test/train/val
+1-methylpiperazine , 109-01-3 , unknown , test/train/val
+4-methylmorpholine , 109-02-4 , unknown , test/train/val
+butyl butanoate , 109-21-7 , propionates and butyrates , test/train/val
+dibutyl decanedioate , 109-43-3 , other saturated aliphatic esters , val
+n',n'-dimethylpropane-1,3-diamine , 109-55-7 , other amines, imines , val
+2-propan-2-yloxyethanol , 109-59-1 , unknown , test/train/val
+propyl acetate , 109-60-4 , acetates , test/train/val
+1,3-dibromopropane , 109-64-8 , c, h, br compounds , test/train
+1-bromobutane , 109-65-9 , c, h, br compounds , test/train/val
+pentane , 109-66-0 , n-alkanes , test/train/val
+1-chlorobutane , 109-69-3 , c3 & higher aliphatic chlorides , test/train/val
+butan-1-amine , 109-73-9 , n-aliphatic primary amines , test/train/val
+butanenitrile , 109-74-0 , nitriles , test
+propane-1,3-diamine , 109-76-2 , other amines, imines , test/train/val
+butane-1-thiol , 109-79-5 , mercaptans , test/train/val
+dimethoxymethane , 109-87-5 , other ethers/diethers , test
+n-ethylethanamine , 109-89-7 , other aliphatic amines , val
+ethenoxyethane , 109-92-2 , aliphatic ethers , val
+ethyl formate , 109-94-4 , formates , test/train/val
+1h-pyrrole , 109-97-7 , other amines, imines , test/train/val
+oxolane , 109-99-9 , epoxides , test/train/val
+furan , 110-00-9 , epoxides , test/train/val
+thiolane , 110-01-0 , sulfides/thiophenes , test/train/val
+thiophene , 110-02-1 , sulfides/thiophenes , val
+5-methylhexan-2-one , 110-12-3 , ketones , train
+n,n,n',n'-tetramethylethane-1,2-diamine , 110-18-9 , other amines, imines , test
+2-methylpropyl acetate , 110-19-0 , acetates , test/train/val
+propan-2-yl tetradecanoate , 110-27-0 , other saturated aliphatic esters , val
+ethyl decanoate , 110-38-3 , other saturated aliphatic esters , test/train/val
+methyl decanoate , 110-42-9 , other saturated aliphatic esters , test/train/val
+heptan-2-one , 110-43-0 , ketones , test/train/val
+1-bromopentane , 110-53-2 , unknown , test/train/val
+hexane , 110-54-3 , n-alkanes , test
+1,4-dichlorobutane , 110-56-5 , c3 & higher aliphatic chlorides , test/train/val
+pentan-1-amine , 110-58-7 , n-aliphatic primary amines , test/train/val
+pentanenitrile , 110-59-8 , nitriles , test
+pentanal , 110-62-3 , aldehydes , train/val
+pentane-1-thiol , 110-66-7 , mercaptans , test
+1,2-dimethoxyethane , 110-71-4 , other ethers/diethers , test
+2-(ethylamino)ethanol , 110-73-6 , unknown , test/train/val
+propyl formate , 110-74-7 , formates , test/train/val
+(ethyldisulfanyl)ethane , 110-81-6 , sulfides/thiophenes , val
+piperidine , 110-89-4 , other amines, imines , test
+2-methyl-n-(2-methylpropyl)propan-1-amine , 110-96-3 , other aliphatic amines , test
+2,6,10,15,19,23-hexamethyltetracosane , 111-01-3 , other alkanes , test/train/val
+methyl octanoate , 111-11-5 , other saturated aliphatic esters , test/train/val
+octan-2-one , 111-13-7 , ketones , test
+1-bromohexane , 111-25-1 , unknown , train
+hexan-1-amine , 111-26-2 , n-aliphatic primary amines , test/train/val
+hexan-1-ol , 111-27-3 , n-alcohols , test
+hexane-1-thiol , 111-31-9 , mercaptans , test
+1-ethenoxybutane , 111-34-2 , aliphatic ethers , test
+n'-(2-aminoethyl)ethane-1,2-diamine , 111-40-0 , other amines, imines , test/train/val
+1-propoxypropane , 111-43-3 , aliphatic ethers , test/train/val
+1-propylsulfanylpropane , 111-47-7 , sulfides/thiophenes , test
+2-acetyloxyethyl acetate , 111-55-7 , acetates , test/train/val
+ethyl (z)-octadec-9-enoate , 111-62-6 , unsaturated aliphatic esters , val
+octane , 111-65-9 , n-alkanes , val
+oct-1-ene , 111-66-0 , 1-alkenes , test
+heptan-1-amine , 111-68-2 , n-aliphatic primary amines , test/train/val
+hexanedinitrile , 111-69-3 , nitriles , test/train/val
+heptan-1-ol , 111-70-6 , n-alcohols , test/train/val
+heptanal , 111-71-7 , aldehydes , test/train/val
+methyl dodecanoate , 111-82-0 , other saturated aliphatic esters , test/train/val
+nonane , 111-84-2 , n-alkanes , test/train/val
+1-chlorooctane , 111-85-3 , unknown , test/train
+octan-1-amine , 111-86-4 , n-aliphatic primary amines , test/train/val
+octan-1-ol , 111-87-5 , n-alcohols , val
+octane-1-thiol , 111-88-6 , mercaptans , train/val
+n-butylbutan-1-amine , 111-92-2 , other aliphatic amines , test/train/val
+1-methoxy-2-(2-methoxyethoxy)ethane , 111-96-6 , other ethers/diethers , test/train/val
+dimethoxy(dimethyl)silane , 1112-39-6 , silanes/siloxanes , train/val
+(z)-1-chloro-2,3,3,3-tetrafluoroprop-1-ene , 111512-60-8 , unknown , test/train/val
+n,n-dioctyloctan-1-amine , 1116-76-3 , other aliphatic amines , test/train/val
+dimethyl pentanedioate , 1119-40-0 , other saturated aliphatic esters , test/train/val
+heptyl acetate , 112-06-1 , acetates , test
+octyl acetate , 112-14-1 , acetates , test/train/val
+decyl acetate , 112-17-4 , acetates , test
+heptyl formate , 112-23-2 , formates , test/train/val
+n'-[2-(2-aminoethylamino)ethyl]ethane-1,2-diamine , 112-24-3 , other amines, imines , train/val
+decan-1-ol , 112-30-1 , n-alcohols , test/train/val
+decanal , 112-31-2 , aldehydes , test/train/val
+octyl formate , 112-32-3 , formates , test/train
+1-ethoxy-2-(2-ethoxyethoxy)ethane , 112-36-7 , other ethers/diethers , val
+methyl hexadecanoate , 112-39-0 , other saturated aliphatic esters , test/train/val
+dodecane , 112-40-3 , n-alkanes , val
+dodec-1-ene , 112-41-4 , 1-alkenes , test/train/val
+undecan-1-ol , 112-42-5 , n-alcohols , val
+undecanal , 112-44-7 , aldehydes , test
+1-methoxy-2-[2-(2-methoxyethoxy)ethoxy]ethane , 112-49-2 , other ethers/diethers , test/train/val
+dodecan-1-ol , 112-53-8 , n-alcohols , test
+dodecane-1-thiol , 112-55-0 , mercaptans , val
+methyl octadecanoate , 112-61-8 , other saturated aliphatic esters , test/train/val
+methyl (z)-octadec-9-enoate , 112-62-9 , unsaturated aliphatic esters , test/train/val
+methyl (9z,12z)-octadeca-9,12-dienoate , 112-63-0 , unsaturated aliphatic esters , test/train/val
+tridecan-1-ol , 112-70-9 , n-alcohols , test/train/val
+tetradecan-1-ol , 112-72-1 , n-alcohols , test
+1-[2-(2-butoxyethoxy)ethoxy]butane , 112-73-2 , other ethers/diethers , test/train/val
+octadec-1-ene , 112-88-9 , 1-alkenes , test
+octadecan-1-ol , 112-92-5 , n-alcohols , test/train/val
+icosane , 112-95-8 , n-alkanes , test/train/val
+undecane , 1120-21-4 , n-alkanes , test/train/val
+methyl icosanoate , 1120-28-1 , other saturated aliphatic esters , test/train/val
+methyl (z)-docos-13-enoate , 1120-34-9 , unsaturated aliphatic esters , test/train/val
+tetradec-1-ene , 1120-36-1 , 1-alkenes , val
+n-octyloctan-1-amine , 1120-48-5 , other aliphatic amines , val
+1-ethylnaphthalene , 1127-76-0 , naphthalenes , test/train
+prop-1-ene , 115-07-1 , 1-alkenes , test/train/val
+methoxymethane , 115-10-6 , aliphatic ethers , test/train/val
+2-methylprop-1-ene , 115-11-7 , methylalkenes , train
+1,1,2,2,3,3,4,4-octafluorocyclobutane , 115-25-3 , c, h, f compounds , test/train/val
+dioctyl benzene-1,2-dicarboxylate , 117-84-0 , unknown , train
+diphenylmethanone , 119-61-9 , ketones , test/train/val
+1-methoxy-2-[2-[2-[2-(2-methoxyethoxy)ethoxy]ethoxy]ethoxy]ethane , 1191-87-3 , other ethers/diethers , test
+1h-indole , 120-72-9 , other amines, imines , test
+cyclopentanone , 120-92-3 , ketones , test/train/val
+n,n-diethylethanamine , 121-44-8 , other aliphatic amines , test/train/val
+diethoxymethoxyethane , 122-51-0 , other ethers/diethers , train
+2-(phenoxymethyl)oxirane , 122-60-1 , other ethers/diethers , val
+bis(2-ethylhexyl) decanedioate , 122-62-3 , unknown , test/train/val
+phenyl acetate , 122-79-2 , acetates , test/train/val
+dodecylbenzene , 123-01-3 , n-alkylbenzenes , test
+tridecylbenzene , 123-02-4 , n-alkylbenzenes , test
+2-ethylhexanal , 123-05-7 , aldehydes , test
+4-methoxybenzaldehyde , 123-11-5 , unknown , test
+heptan-4-one , 123-19-3 , ketones , test/train/val
+diethyl butanedioate , 123-25-1 , other saturated aliphatic esters , test/train/val
+ethyl nonanoate , 123-29-5 , unknown , val
+propanal , 123-38-6 , aldehydes , test/train/val
+3-methylbutan-1-ol , 123-51-3 , other aliphatic alcohols , test
+pentane-2,4-dione , 123-54-6 , ketones , test/train/val
+propanoyl propanoate , 123-62-6 , anhydrides , test/train/val
+2,4,6-trimethyl-1,3,5-trioxane , 123-63-7 , other ethers/diethers , test/train/val
+ethyl hexanoate , 123-66-0 , unknown , val
+butanal , 123-72-8 , aldehydes , val
+pyrrolidine , 123-75-1 , other amines, imines , test/train/val
+butyl acetate , 123-86-4 , acetates , test/train/val
+1,4-dioxane , 123-91-1 , epoxides , test/train/val
+3-methylbutyl acetate , 123-92-2 , acetates , val
+octan-2-ol , 123-96-6 , other aliphatic alcohols , test/train/val
+ethyl tetradecanoate , 124-06-1 , other saturated aliphatic esters , test
+hexane-1,6-diamine , 124-09-4 , other amines, imines , train
+methyl tetradecanoate , 124-10-7 , other saturated aliphatic esters , test/train/val
+non-1-ene , 124-11-8 , 1-alkenes , test/train/val
+octanal , 124-13-0 , aldehydes , val
+decane , 124-18-5 , n-alkanes , test/train/val
+nonanal , 124-19-6 , aldehydes , test/train/val
+n-methylmethanamine , 124-40-3 , other aliphatic amines , train
+dichloro-ethenyl-methylsilane , 124-70-9 , silanes/siloxanes , val
+1,2-dibromo-1,1,2,2-tetrafluoroethane , 124-73-2 , c, h, multihalogen compounds , test/train/val
+2-methylprop-2-enenitrile , 126-98-7 , nitriles , test/train/val
+1,1,2,2-tetrachloroethene , 127-18-4 , c1/c2 aliphatic chlorides , test/train/val
+6,6-dimethyl-2-methylidenebicyclo[3.1.1]heptane , 127-91-3 , terpenes , train/val
+3-methyldecane , 13151-34-3 , methylalkanes , test/train/val
+1,1,1,3,3,3-hexafluoro-2-methoxypropane , 13171-18-1 , unknown , val
+methoxy(methoxymethoxymethoxymethoxy)methane , 13352-75-5 , unknown , test/train/val
+methoxy(methoxymethoxymethoxy)methane , 13353-03-2 , unknown , val
+pentadec-1-ene , 13360-61-7 , 1-alkenes , val
+(e)-oct-2-ene , 13389-42-9 , 2,3,4-alkenes , test/train/val
+trichloro(trichlorosilyl)silane , 13465-77-5 , silanes/siloxanes , val
+butan-2-ylbenzene , 135-98-8 , other alkylbenzenes , test/train/val
+2-methylbutan-1-ol , 137-32-6 , other aliphatic alcohols , test/train/val
+butyl 2-hydroxypropanoate , 138-22-7 , unknown , test/train/val
+1-methyl-4-prop-1-en-2-ylcyclohexene , 138-86-3 , unknown , test
+2-phenylacetonitrile , 140-29-4 , nitriles , val
+2-piperazin-1-ylethanamine , 140-31-8 , other amines, imines , test/train/val
+ethyl prop-2-enoate , 140-88-5 , unsaturated aliphatic esters , test/train/val
+diethyl (z)-but-2-enedioate , 141-05-9 , unsaturated aliphatic esters , train/val
+diethyl hexanedioate , 141-28-6 , unknown , test/train/val
+butyl prop-2-enoate , 141-32-2 , unsaturated aliphatic esters , test/train/val
+[dimethyl(trimethylsilyloxy)silyl]oxy-dimethyl-trimethylsilyloxysilane , 141-62-8 , silanes/siloxanes , test/train/val
+bis[[dimethyl(trimethylsilyloxy)silyl]oxy]-dimethylsilane , 141-63-9 , silanes/siloxanes , test
+ethyl acetate , 141-78-6 , acetates , test/train/val
+4-methylpent-3-en-2-one , 141-79-7 , ketones , val
+1,3-diethylbenzene , 141-93-5 , other alkylbenzenes , test/train/val
+1,3-dichloropropane , 142-28-9 , c3 & higher aliphatic chlorides , test
+oxane , 142-68-7 , epoxides , test/train/val
+heptane , 142-82-5 , n-alkanes , test/train/val
+n-propylpropan-1-amine , 142-84-7 , other aliphatic amines , test/train/val
+hexyl acetate , 142-92-7 , acetates , test/train/val
+1-butoxybutane , 142-96-1 , aliphatic ethers , test/train/val
+nonan-1-ol , 143-08-8 , n-alcohols , val
+nonyl acetate , 143-13-5 , acetates , val
+1-bromododecane , 143-15-7 , c, h, br compounds , test
+1-methoxy-2-[2-[2-(2-methoxyethoxy)ethoxy]ethoxy]ethane , 143-24-8 , other ethers/diethers , test/train/val
+deuteriooxymethane , 1455-13-6 , unknown , test/train/val
+nonane-1-thiol , 1455-21-6 , mercaptans , test/train/val
+dichloro-methyl-phenylsilane , 149-74-6 , silanes/siloxanes , test/train/val
+aziridine , 151-56-4 , other amines, imines , train/val
+2-methylsulfanylpropane , 1551-21-9 , sulfides/thiophenes , test/train
+(z)-1,2-dichloroethene , 156-59-2 , c1/c2 aliphatic chlorides , test/train/val
+(e)-1,2-dichloroethene , 156-60-5 , c1/c2 aliphatic chlorides , val
+2-methylpentadecane , 1560-93-6 , unknown , test/train/val
+2-methyltridecane , 1560-96-9 , methylalkanes , test
+2-methyldodecane , 1560-97-0 , methylalkanes , test
+n,n-diethyl-2-[methyl(2-methylpropoxy)phosphoryl]sulfanylethanamine , 159939-87-4 , unknown , val
+3-methylideneheptane , 1632-16-2 , ethyl & higher alkenes , train/val
+2-methoxy-2-methylpropane , 1634-04-4 , aliphatic ethers , test/train/val
+1-ethoxy-1,1,2,2,3,3,4,4,4-nonafluorobutane , 163702-05-4 , unknown , test/train/val
+heptane-1-thiol , 1639-09-4 , mercaptans , train/val
+2,5-dihydrofuran , 1708-29-8 , epoxides , train/val
+1,1-dichloro-1-fluoroethane , 1717-00-6 , c, h, multihalogen compounds , test
+dichloro(diethyl)silane , 1719-53-5 , silanes/siloxanes , test/train
+methyl nonanoate , 1731-84-6 , unknown , test/train/val
+2,3-dimethyldecane , 17312-44-6 , dimethylalkanes , train
+3-methyldodecane , 17312-57-1 , methylalkanes , val
+2,3-dimethylundecane , 17312-77-5 , dimethylalkanes , train
+3-methylcyclopentan-1-one , 1757-42-2 , ketones , test/train
+octylcyclohexane , 1795-15-9 , unknown , val
+dodecylcyclohexane , 1795-17-1 , unknown , test/train/val
+(1s,5s)-6,6-dimethyl-2-methylidenebicyclo[3.1.1]heptane , 18172-67-3 , unknown , train/val
+n-pentylpentan-1-amine , 2050-92-2 , other aliphatic amines , test
+butyl 4-oxopentanoate , 2052-15-5 , unknown , test/train/val
+(e)-1,1,1,2,3,4,5,5,5-nonafluoro-4-(trifluoromethyl)pent-2-ene , 2070-70-4 , unknown , test/train/val
+1-chloro-2-fluoro-3-nitrobenzene , 2106-49-2 , unknown , train/val
+octylbenzene , 2189-60-8 , n-alkylbenzenes , test/train/val
+(5s)-2-methyl-5-prop-1-en-2-ylcyclohex-2-en-1-one , 2244-16-8 , unknown , train
+3-(3-hydroxypropoxy)propan-1-ol , 2396-61-4 , unknown , val
+tridec-1-ene , 2437-56-1 , 1-alkenes , test
+1,1,1,5-tetrachloropentane , 2467-10-9 , unknown , test
+trimethoxysilane , 2487-90-3 , silanes/siloxanes , test/train/val
+trimethoxy-[3-(oxiran-2-ylmethoxy)propyl]silane , 2530-83-8 , silanes/siloxanes , test/train/val
+3-chloropropyl(trimethoxy)silane , 2530-87-2 , silanes/siloxanes , train/val
+methyl 4-tert-butylbenzoate , 26537-19-9 , unknown , test
+1-propylnaphthalene , 2765-18-6 , naphthalenes , train/val
+ethenyl(trimethoxy)silane , 2768-02-7 , silanes/siloxanes , test
+(1r,2s,6r,7s)-tricyclo[5.2.1.02,6]decane , 2825-82-3 , unknown , test
+2-chloro-1,1,1,2-tetrafluoroethane , 2837-89-0 , c, h, multihalogen compounds , test/train/val
+thietane , 287-27-4 , sulfides/thiophenes , test/train/val
+nonylcyclohexane , 2883-02-5 , unknown , test/train/val
+2,3-dimethylnonane , 2884-06-2 , dimethylalkanes , train/val
+(e)-1,3,3,3-tetrafluoroprop-1-ene , 29118-24-9 , c, h, f compounds , val
+2,2-dichloro-1,1,1-trifluoroethane , 306-83-2 , c, h, multihalogen compounds , test/train/val
+1,1,2,2,3,3,4,4,4a,5,5,6,6,7,7,8,8,8a-octadecafluoronaphthalene , 306-94-5 , unknown , test/train/val
+1,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-octadecafluorooctane , 307-34-6 , c, h, f compounds , val
+2,3-dimethylheptane , 3074-71-3 , dimethylalkanes , train
+2-methyloctane , 3221-61-2 , methylalkanes , val
+1,1,2,2,3,3,4,5,5,6-decafluoro-4,6-bis(trifluoromethyl)cyclohexane , 335-27-3 , unknown , test/train/val
+1,1,1,2,2,3,3,4,4,5,5,6,6,7,7,7-hexadecafluoroheptane , 335-57-9 , c, h, f compounds , test/train/val
+2,3-dichloro-1,1,1-trifluoropropane , 338-75-0 , unknown , val
+dichloro(phenoxy)phosphane , 3426-89-9 , unknown , test/train/val
+dichloro-phenyl-sulfanylidene-lambda5-phosphane , 3497-00-5 , unknown , test/train
+ethylsulfanylethane , 352-93-2 , sulfides/thiophenes , val
+fluoroethane , 353-36-6 , c, h, f compounds , test/train/val
+bromo-chloro-difluoromethane , 353-59-3 , c, h, multihalogen compounds , test/train/val
+1,2-dichloro-1,1,2-trifluoroethane , 354-23-4 , c, h, multihalogen compounds , test/train/val
+1,1,1,2,2-pentafluoroethane , 354-33-6 , c, h, f compounds , test/train/val
+1,1,1-trichloro-2,2,2-trifluoroethane , 354-58-5 , c, h, multihalogen compounds , train/val
+1,1,2,2,3,3,4,4,5,5,6-undecafluoro-6-(trifluoromethyl)cyclohexane , 355-02-2 , unknown , test
+1,1,1,2,2,3,3,4,4,5,5,6,6,6-tetradecafluorohexane , 355-42-0 , c, h, f compounds , test/train/val
+hexadecan-1-ol , 36653-82-4 , n-alcohols , test/train/val
+1,3-difluorobenzene , 372-18-9 , c, h, f compounds , test
+1,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,9-icosafluorononane , 375-96-2 , c, h, f compounds , train
+1-methylsulfanylpropane , 3877-15-4 , sulfides/thiophenes , train
+1,2,3,4,5,6-hexafluorobenzene , 392-56-3 , c, h, f compounds , test/train/val
+1,1,1,7-tetrachloroheptane , 3922-36-9 , unknown , test
+1,1,1,3,3-pentafluorobutane , 406-58-6 , c, h, f compounds , test
+1,1,2,2-tetrafluoro-1-(2,2,2-trifluoroethoxy)ethane , 406-78-0 , unknown , test/train/val
+(e)-but-2-enal , 4170-30-3 , unknown , val
+1,1,1-trifluoroethane , 420-46-2 , c, h, f compounds , test/train/val
+2,2,3,3,3-pentafluoropropan-1-ol , 422-05-9 , unknown , test/train/val
+3,3-dichloro-1,1,1,2,2-pentafluoropropane , 422-56-0 , unknown , test/train/val
+hexylcyclohexane , 4292-75-5 , unknown , test/train/val
+1,1,1,2,3,3-hexafluoropropane , 431-63-0 , c, h, f compounds , val
+1,1,1,2,3,3,3-heptafluoropropane , 431-89-0 , c, h, f compounds , test/train/val
+2,2,4,4,6,8,8-heptamethylnonane , 4390-04-9 , other alkanes , val
+oxalonitrile , 460-19-5 , nitriles , test/train/val
+1,1,1,3,3-pentafluoropropane , 460-73-1 , c, h, f compounds , test/train/val
+fluorobenzene , 462-06-6 , c, h, f compounds , test
+pentane-1,5-diamine , 462-94-2 , other amines, imines , val
+ethoxymethoxyethane , 462-95-3 , other ethers/diethers , train
+2,2-dimethylpropane , 463-82-1 , dimethylalkanes , test/train/val
+2,2,3-trimethylbutane , 464-06-2 , other alkanes , train/val
+1,3,3-trimethyl-2-oxabicyclo[2.2.2]octane , 470-82-6 , unknown , test/train/val
+2,6,6-trimethylbicyclo[3.1.1]heptane , 473-55-2 , unknown , train/val
+2-methyl-1,3-dioxolane , 497-26-7 , epoxides , test/train/val
+cycloheptanol , 502-41-0 , unknown , train/val
+2-chloro-2-methylpropane , 507-20-0 , c3 & higher aliphatic chlorides , val
+1,3-dichloro-1,1,2,2,3-pentafluoropropane , 507-55-1 , unknown , test/train/val
+tetranitromethane , 509-14-8 , c, h, no2 compounds , test/train
+2-methylbut-2-ene , 513-35-9 , methylalkenes , test/train/val
+1-chloro-2-methylpropane , 513-36-0 , c3 & higher aliphatic chlorides , test/train/val
+2-methylpropane-1-thiol , 513-44-0 , mercaptans , train
+butane-2-thiol , 513-53-1 , mercaptans , test/train/val
+2,3-dimethylbuta-1,3-diene , 513-81-5 , dialkenes , train/val
+3-acetyloxolan-2-one , 517-23-7 , unknown , test/train/val
+1,1-dimethoxyethane , 534-15-6 , other ethers/diethers , train
+2-methylfuran , 534-22-5 , unknown , test/train/val
+pentane-1,2-diol , 5343-92-0 , unknown , train/val
+(1s,5r)-6,8-dioxabicyclo[3.2.1]octan-4-one , 53716-82-8 , unknown , test/train/val
+pentylbenzene , 538-68-1 , n-alkylbenzenes , val
+2-methylpropylbenzene , 538-93-2 , other alkylbenzenes , test/train/val
+(2e)-3,7-dimethylocta-2,6-dienal , 5392-40-5 , unknown , val
+3-[(2s)-1-methylpyrrolidin-2-yl]pyridine , 54-11-5 , unknown , test/train/val
+pentyl butanoate , 540-18-1 , propionates and butyrates , val
+1,4-difluorobenzene , 540-36-3 , c, h, f compounds , test
+1-chloropropane , 540-54-5 , c3 & higher aliphatic chlorides , test/train/val
+2,2,4-trimethylpentane , 540-84-1 , other alkanes , test/train/val
+tert-butyl acetate , 540-88-5 , acetates , test/val
+2,2,4,4,6,6,8,8,10,10,12,12-dodecamethyl-1,3,5,7,9,11-hexaoxa-2,4,6,8,10,12-hexasilacyclododecane , 540-97-6 , silanes/siloxanes , test/train/val
+2,2,4,4,6,6,8,8,10,10-decamethyl-1,3,5,7,9,2,4,6,8,10-pentaoxapentasilecane , 541-02-6 , silanes/siloxanes , test/train/val
+2,2,4,4,6,6-hexamethyl-1,3,5,2,4,6-trioxatrisilinane , 541-05-9 , silanes/siloxanes , test/train/val
+chlorocyclohexane , 542-18-7 , c3 & higher aliphatic chlorides , test/train/val
+oxan-2-one , 542-28-9 , unknown , test/train/val
+2-methylpropyl formate , 542-55-2 , formates , test/train/val
+1-iodobutane , 542-69-8 , c, h, i compounds , test/train/val
+cyclopenta-1,3-diene , 542-92-7 , dialkenes , train
+heptan-2-ol , 543-49-7 , other aliphatic alcohols , val
+1-chloropentane , 543-59-9 , c3 & higher aliphatic chlorides , val
+1-chlorohexane , 544-10-5 , unknown , test/train
+pentanedinitrile , 544-13-8 , nitriles , test
+ethyl (9z,12z)-octadeca-9,12-dienoate , 544-35-4 , unsaturated aliphatic esters , test/train/val
+1-butylsulfanylbutane , 544-40-1 , sulfides/thiophenes , test/train/val
+hexadecane , 544-76-3 , n-alkanes , val
+methyl 2-methylpropanoate , 547-63-7 , propionates and butyrates , test/train/val
+1,3-dioxo-2-benzofuran-5-carboxylic acid , 552-30-7 , anhydrides , train/val
+methyl propanoate , 554-12-1 , propionates and butyrates , test/train/val
+2-methylthiophene , 554-14-3 , sulfides/thiophenes , test/train/val
+[7-cyclopentyl-4-(3-cyclopentylpropyl)heptyl]cyclopentane , 55429-35-1 , unknown , val
+2,2,4,4,6,6,8,8-octamethyl-1,3,5,7,2,4,6,8-tetraoxatetrasilocane , 556-67-2 , silanes/siloxanes , test/train/val
+1-methoxypropane , 557-17-5 , aliphatic ethers , train/val
+tetrachloromethane , 56-23-5 , c1/c2 aliphatic chlorides , test/train/val
+2,3,3-trimethylpentane , 560-21-4 , other alkanes , train
+heptylcyclohexane , 5617-41-4 , unknown , test/train/val
+3,3-dimethylpentane , 562-49-2 , dimethylalkanes , test/train/val
+3,3-dimethylhexane , 563-16-6 , dimethylalkanes , val
+3-methylbutan-2-one , 563-80-4 , ketones , train
+2,2,3-trimethylpentane , 564-02-3 , other alkanes , val
+2,3-dimethylpentane , 565-59-3 , dimethylalkanes , test/train/val
+2,3,4-trimethylpentane , 565-75-3 , other alkanes , test/train/val
+2,4-dimethylpentan-3-one , 565-80-0 , ketones , val
+3,4-dimethylhexane , 583-48-2 , dimethylalkanes , test
+2-methylcyclohexan-1-ol , 583-59-5 , unknown , test/train/val
+2-methylcyclohexan-1-one , 583-60-8 , unknown , test/train/val
+pentan-3-ol , 584-02-1 , other aliphatic alcohols , test/train/val
+2,3-dimethylhexane , 584-94-1 , dimethylalkanes , test/train/val
+1-methyl-4-propan-2-ylidenecyclohexene , 586-62-9 , terpenes , test/train
+3-methylhexane , 589-34-4 , methylalkanes , test/train
+3-methylpentan-1-ol , 589-35-5 , other aliphatic alcohols , test/train/val
+hexan-3-one , 589-38-8 , ketones , val
+2,4-dimethylhexane , 589-43-5 , dimethylalkanes , train/val
+4-methylheptane , 589-53-7 , methylalkanes , train/val
+3-methylheptane , 589-81-1 , methylalkanes , train/val
+heptan-3-ol , 589-82-2 , other aliphatic alcohols , test/train/val
+5-chloropentan-2-one , 5891-21-4 , unknown , test/train/val
+butyl propanoate , 590-01-2 , propionates and butyrates , train/val
+(z)-but-2-ene , 590-18-1 , 2,3,4-alkenes , test/train
+2,2-dimethylpentane , 590-35-2 , dimethylalkanes , val
+2-methylpentan-2-ol , 590-36-3 , unknown , val
+2,2-dimethylhexane , 590-73-8 , dimethylalkanes , test/train
+3-methylbutanal , 590-86-3 , aldehydes , val
+iodobenzene , 591-50-4 , c, h, i compounds , test/train/val
+butyl pentanoate , 591-68-4 , other saturated aliphatic esters , test/train/val
+2-methylhexane , 591-76-4 , methylalkanes , test/train/val
+hexan-2-one , 591-78-6 , ketones , test/train/val
+2,5-dimethylhexane , 592-13-2 , dimethylalkanes , test/train/val
+2-methylheptane , 592-27-8 , methylalkanes , train/val
+hex-1-ene , 592-41-6 , 1-alkenes , test/train/val
+cyclohexa-1,3-diene , 592-57-4 , dialkenes , test/train/val
+hept-1-ene , 592-76-7 , 1-alkenes , test/train/val
+butyl formate , 592-84-7 , formates , test/train/val
+octadecane , 593-45-3 , n-alkanes , test/train/val
+3-ethylpentan-3-ol , 597-49-9 , unknown , val
+(4r)-1-methyl-4-prop-1-en-2-ylcyclohexene , 5989-27-5 , terpenes , test/train/val
+ethoxyethane , 60-29-7 , aliphatic ethers , test
+tricyclo[5.2.1.02,6]decane , 6004-38-2 , unknown , val
+pentan-2-ol , 6032-29-7 , other aliphatic alcohols , test/train/val
+2-methylheptan-1-ol , 60435-70-3 , other aliphatic alcohols , train
+2,3-dimethyldodecane , 6117-98-2 , dimethylalkanes , val
+3-methylthiophene , 616-44-4 , sulfides/thiophenes , test
+1-methylimidazole , 616-47-7 , unknown , val
+2-methyl-2-[(2-methylpropan-2-yl)oxy]propane , 6163-66-2 , aliphatic ethers , test/train/val
+3-ethylpentane , 617-78-7 , other alkanes , test/train
+3-ethylhexane , 619-99-8 , other alkanes , test/train
+cyclohexyl acetate , 622-45-7 , acetates , val
+1-ethyl-4-methylbenzene , 622-96-8 , other alkylbenzenes , val
+hexan-3-ol , 623-37-0 , other aliphatic alcohols , val
+methyl butanoate , 623-42-7 , propionates and butyrates , val
+nonan-5-ol , 623-93-8 , unknown , test/train/val
+methyl pentanoate , 624-24-8 , unknown , test/train
+dimethyl (z)-but-2-enedioate , 624-48-6 , unsaturated aliphatic esters , train/val
+pentyl propanoate , 624-54-4 , unknown , test/train/val
+methylsulfanylethane , 624-89-5 , sulfides/thiophenes , test/train
+(methyldisulfanyl)methane , 624-92-0 , sulfides/thiophenes , train/val
+2,5-dimethylfuran , 625-86-5 , epoxides , val
+hexan-2-ol , 626-93-7 , other aliphatic alcohols , test/train/val
+1-nitrobutane , 627-05-4 , c, h, no2 compounds , test/train/val
+(z)-pent-2-ene , 627-20-3 , 2,3,4-alkenes , train/val
+dimethyl hexanedioate , 627-93-0 , unknown , test
+1-iodopentane , 628-17-1 , unknown , train
+1-methylsulfanylbutane , 628-29-5 , sulfides/thiophenes , test/train
+1-ethoxypropane , 628-32-0 , aliphatic ethers , val
+2-methyl-1-(2-methylpropoxy)propane , 628-55-7 , aliphatic ethers , train
+pentyl acetate , 628-63-7 , acetates , test/train/val
+hexanenitrile , 628-73-9 , nitriles , test/train/val
+1,5-dichloropentane , 628-76-2 , c3 & higher aliphatic chlorides , train/val
+1-ethoxybutane , 628-81-9 , aliphatic ethers , val
+methoxy(methoxymethoxy)methane , 628-90-0 , unknown , train/val
+ethyl hexadecanoate , 628-97-7 , other saturated aliphatic esters , test
+nonan-2-ol , 628-99-9 , other aliphatic alcohols , test
+1-bromoheptane , 629-04-9 , c, h, br compounds , val
+oct-1-yne , 629-05-0 , alkynes , train
+1,2-diethoxyethane , 629-14-1 , other ethers/diethers , test/train/val
+1-(propyldisulfanyl)propane , 629-19-6 , sulfides/thiophenes , train
+1-iodooctane , 629-27-6 , unknown , test
+hexyl formate , 629-33-4 , formates , test/train/val
+1-(butyldisulfanyl)butane , 629-45-8 , sulfides/thiophenes , train
+tridecane , 629-50-5 , n-alkanes , test
+tetradecane , 629-59-4 , n-alkanes , test/train/val
+pentadecane , 629-62-9 , n-alkanes , test/train/val
+hexadec-1-ene , 629-73-2 , 1-alkenes , val
+heptadecane , 629-78-7 , n-alkanes , test
+nonadecane , 629-92-5 , n-alkanes , test
+octacosane , 630-02-4 , n-alkanes , test/train/val
+1,1,1,2-tetrachloroethane , 630-20-6 , c1/c2 aliphatic chlorides , test
+tetraethylsilane , 631-36-7 , silanes/siloxanes , test
+1,2,4,5-tetra(propan-2-yl)benzene , 635-11-0 , other alkylbenzenes , test/train
+thiophen-2-ylmethanol , 636-72-6 , unknown , test/train/val
+2-ethoxy-2-methylpropane , 637-92-3 , aliphatic ethers , test
+1-iodohexane , 638-45-9 , c, h, i compounds , train/val
+pentyl formate , 638-49-3 , formates , test/train/val
+ethanol , 64-17-5 , n-alcohols , test/train/val
+3-methyltridecane , 6418-41-3 , methylalkanes , test/train/val
+propyl 2-methylpropanoate , 644-49-5 , propionates and butyrates , train/val
+(e)-pent-2-ene , 646-04-8 , 2,3,4-alkenes , train
+1,3-dioxolane , 646-06-0 , unknown , test
+tetracosane , 646-31-1 , n-alkanes , val
+hexanal , 66-25-1 , aldehydes , test
+2,3,4,6,7,8,9,10-octahydropyrimido[1,2-a]azepine , 6674-22-2 , unknown , test/train
+1,1,1,2,3,3-hexafluoro-2-(1,1,2,2,3,3,3-heptafluoropropoxy)-3-(1,1,2,2,2-pentafluoroethoxy)propane , 66804-94-2 , unknown , test/train/val
+methanol , 67-56-1 , n-alcohols , test/train/val
+propan-2-ol , 67-63-0 , other aliphatic alcohols , test/train/val
+propan-2-one , 67-64-1 , ketones , test/train/val
+chloroform , 67-66-3 , c1/c2 aliphatic chlorides , test/train/val
+undecylbenzene , 6742-54-7 , n-alkylbenzenes , val
+heptadec-1-ene , 6765-39-5 , 1-alkenes , train/val
+1,1,1,2,2,3,3,4,4,5,5,5-dodecafluoropentane , 678-26-2 , c, h, f compounds , val
+1,1,2,2,3-pentafluoropropane , 679-86-7 , c, h, f compounds , test
+tetramethyl silicate , 681-84-5 , silanes/siloxanes , test/train/val
+1,1,2,2-tetradeuterioethene , 683-73-8 , unknown , test/train/val
+1,1,1,3,3,3-hexafluoropropane , 690-39-1 , c, h, f compounds , test/train/val
+(z)-1,1,1,4,4,4-hexafluorobut-2-ene , 692-49-9 , unknown , test/train/val
+hexane-1,2-diol , 6920-22-5 , unknown , val
+1-pentoxypentane , 693-65-2 , aliphatic ethers , test/train/val
+cyclooctanol , 696-71-9 , unknown , test
+2-methyldecane , 6975-98-0 , methylalkanes , test/train/val
+1-ethylsulfinylethane , 70-29-1 , unknown , train/val
+2-methylundecane , 7045-71-8 , methylalkanes , val
+1,3,5-trimethyladamantane , 707-35-7 , unknown , test/train/val
+propan-1-ol , 71-23-8 , n-alcohols , test/train/val
+butan-1-ol , 71-36-3 , n-alcohols , test/train/val
+pentan-1-ol , 71-41-0 , n-alcohols , test/train/val
+benzene , 71-43-2 , n-alkylbenzenes , test/train/val
+1,1,1-trichloroethane , 71-55-6 , c1/c2 aliphatic chlorides , test/train
+1,3,5-tri(propan-2-yl)benzene , 717-74-8 , other alkylbenzenes , test/train/val
+1,3-dimethyl-1,3-diazinan-2-one , 7226-23-5 , unknown , test/train/val
+methane , 74-82-8 , n-alkanes , test/train/val
+bromomethane , 74-83-9 , c, h, br compounds , test/train/val
+ethane , 74-84-0 , n-alkanes , test/train/val
+ethene , 74-85-1 , 1-alkenes , test/train/val
+acetylene , 74-86-2 , alkynes , test/train/val
+chloromethane , 74-87-3 , c1/c2 aliphatic chlorides , test/train/val
+iodomethane , 74-88-4 , c, h, i compounds , test/train/val
+methanamine , 74-89-5 , n-aliphatic primary amines , test/train/val
+formonitrile , 74-90-8 , nitriles , test/train/val
+dibromomethane , 74-95-3 , c, h, br compounds , test/train/val
+bromoethane , 74-96-4 , c, h, br compounds , val
+propane , 74-98-6 , n-alkanes , test/train/val
+ethyl 2-methylbutanoate , 7452-79-1 , unknown , test/train/val
+chloroethane , 75-00-3 , c1/c2 aliphatic chlorides , test/train/val
+chloroethene , 75-01-4 , c1/c2 aliphatic chlorides , train
+iodoethane , 75-03-6 , c, h, i compounds , test/train/val
+ethanamine , 75-04-7 , n-aliphatic primary amines , test/train
+acetonitrile , 75-05-8 , nitriles , test/train/val
+acetaldehyde , 75-07-0 , aldehydes , test/train/val
+ethanethiol , 75-08-1 , mercaptans , train
+dichloromethane , 75-09-2 , c1/c2 aliphatic chlorides , val
+difluoromethane , 75-10-5 , c, h, f compounds , test/train/val
+diiodomethane , 75-11-6 , c, h, i compounds , test/train/val
+ , 75-15-0 , sulfides/thiophenes , test
+methylsulfanylmethane , 75-18-3 , sulfides/thiophenes , test/train/val
+oxirane , 75-21-8 , epoxides , test/train/val
+bromoform , 75-25-2 , c, h, br compounds , test/train/val
+2-bromopropane , 75-26-3 , c, h, br compounds , test/train/val
+2-methylpropane , 75-28-5 , methylalkanes , test/train/val
+2-chloropropane , 75-29-6 , c3 & higher aliphatic chlorides , test
+2-iodopropane , 75-30-9 , c, h, i compounds , test/train/val
+propan-2-amine , 75-31-0 , other aliphatic amines , test/train
+propane-2-thiol , 75-33-2 , mercaptans , train/val
+1,1-dichloroethane , 75-34-3 , c1/c2 aliphatic chlorides , test/train/val
+1,1-dichloroethene , 75-35-4 , c1/c2 aliphatic chlorides , train
+1,1-difluoroethane , 75-37-6 , c, h, f compounds , test/train/val
+dichloro(fluoro)methane , 75-43-4 , c, h, multihalogen compounds , test/train/val
+chloro(difluoro)methane , 75-45-6 , c, h, multihalogen compounds , test/train/val
+fluoroform , 75-46-7 , c, h, f compounds , test/train/val
+n,n-dimethylmethanamine , 75-50-3 , other aliphatic amines , train
+nitromethane , 75-52-5 , c, h, no2 compounds , test/train/val
+dichloro-methylsilane , 75-54-7 , silanes/siloxanes , test/train
+2-methyloxirane , 75-56-9 , epoxides , test/train/val
+dibromo(difluoro)methane , 75-61-6 , c, h, multihalogen compounds , test
+bromo(trichloro)methane , 75-62-7 , c, h, multihalogen compounds , test
+bromo(trifluoro)methane , 75-63-8 , c, h, multihalogen compounds , test/train/val
+2-methylpropan-2-amine , 75-64-9 , other aliphatic amines , test
+2-methylpropan-2-ol , 75-65-0 , other aliphatic alcohols , test
+2-methylpropane-2-thiol , 75-66-1 , mercaptans , test/train/val
+1-chloro-1,1-difluoroethane , 75-68-3 , c, h, multihalogen compounds , test/train/val
+trichloro(fluoro)methane , 75-69-4 , c, h, multihalogen compounds , test/train/val
+dichloro(difluoro)methane , 75-71-8 , c, h, multihalogen compounds , test/train/val
+chloro(trifluoro)methane , 75-72-9 , c, h, multihalogen compounds , val
+tetrafluoromethane , 75-73-0 , c, h, f compounds , test/train/val
+tetramethylsilane , 75-76-3 , silanes/siloxanes , train
+chloro(trimethyl)silane , 75-77-4 , silanes/siloxanes , test/train/val
+dichloro(dimethyl)silane , 75-78-5 , silanes/siloxanes , val
+trichloro(methyl)silane , 75-79-6 , silanes/siloxanes , train/val
+2,2-dimethylbutane , 75-83-2 , dimethylalkanes , test
+2-methylbutan-2-ol , 75-85-4 , other aliphatic alcohols , test/train/val
+2,2,2-trifluoroethanol , 75-89-8 , unknown , test/train/val
+trichloro(ethenyl)silane , 75-94-5 , silanes/siloxanes , train/val
+3,3-dimethylbutan-2-one , 75-97-8 , ketones , test/train
+2,3,3,3-tetrafluoroprop-1-ene , 754-12-1 , c, h, f compounds , val
+1,1,1,2,2,4,5,5,5-nonafluoro-4-(trifluoromethyl)pentan-3-one , 756-13-8 , unknown , test
+[methoxy(methyl)phosphoryl]oxymethane , 756-79-6 , unknown , test/train/val
+n,n-dimethylpropanamide , 758-96-3 , unknown , test/train/val
+1,1,1,2,2-pentachloroethane , 76-01-7 , c1/c2 aliphatic chlorides , test
+1,1,2,2-tetrachloro-1,2-difluoroethane , 76-12-0 , c, h, multihalogen compounds , val
+1,1,2-trichloro-1,2,2-trifluoroethane , 76-13-1 , c, h, multihalogen compounds , test/train/val
+1,2-dichloro-1,1,2,2-tetrafluoroethane , 76-14-2 , c, h, multihalogen compounds , test
+1-chloro-1,1,2,2,2-pentafluoroethane , 76-15-3 , c, h, multihalogen compounds , test/train/val
+1,1,1,2,2,2-hexafluoroethane , 76-16-4 , c, h, f compounds , test/train/val
+1,1,1,2,2,3,3,3-octafluoropropane , 76-19-7 , c, h, f compounds , test/train/val
+2,2,3,3-tetrafluoropropan-1-ol , 76-37-9 , unknown , test/train/val
+2-methylpent-1-ene , 763-29-1 , methylalkenes , test/train/val
+1-cyclopropylethanone , 765-43-5 , unknown , train/val
+1,2,3,4,5,5-hexachlorocyclopenta-1,3-diene , 77-47-4 , c3 & higher aliphatic chlorides , test
+tricyclo[5.2.1.02,6]deca-3,8-diene , 77-73-6 , dialkenes , test/train/val
+3-methylpentan-3-ol , 77-74-7 , other aliphatic alcohols , test/train/val
+1-ethyladamantane , 770-69-4 , unknown , test/train/val
+disilylsilane , 7783-26-8 , silanes/siloxanes , train/val
+disilanyl-silylsilane , 7783-29-1 , silanes/siloxanes , test
+(1r,5r)-2,6,6-trimethylbicyclo[3.1.1]hept-2-ene , 7785-70-8 , unknown , test
+tribromophosphane , 7789-60-8 , unknown , val
+tetraethyl silicate , 78-10-4 , silanes/siloxanes , val
+3,5,5-trimethylcyclohex-2-en-1-one , 78-59-1 , ketones , test/train
+3,7-dimethylocta-1,6-dien-3-ol , 78-70-6 , unknown , test/train/val
+2-methylbutane , 78-78-4 , methylalkanes , test/train/val
+2-methylbuta-1,3-diene , 78-79-5 , dialkenes , test/train/val
+2-methylpropan-1-amine , 78-81-9 , other aliphatic amines , val
+2-methylpropanenitrile , 78-82-0 , nitriles , val
+2-methylpropan-1-ol , 78-83-1 , other aliphatic alcohols , test/train/val
+2-methylpropanal , 78-84-2 , aldehydes , test/train/val
+2-methylprop-2-enal , 78-85-3 , aldehydes , train
+2-chlorobutane , 78-86-4 , c3 & higher aliphatic chlorides , test/train/val
+propane-1,2-diamine , 78-90-0 , other amines, imines , test/train/val
+butan-2-ol , 78-92-2 , other aliphatic alcohols , test
+butan-2-one , 78-93-3 , ketones , test/train/val
+silane , 7803-62-5 , silanes/siloxanes , test/train
+1,1,2-trichloroethane , 79-00-5 , c1/c2 aliphatic chlorides , val
+1,1,2-trichloroethene , 79-01-6 , c1/c2 aliphatic chlorides , test
+methyl acetate , 79-20-9 , acetates , test/train/val
+1-nitroethane , 79-24-3 , c, h, no2 compounds , test/train/val
+2,3-dimethylbutane , 79-29-8 , dimethylalkanes , test/train/val
+1,1,2,2-tetrachloroethane , 79-34-5 , c1/c2 aliphatic chlorides , test/train/val
+2-nitropropane , 79-46-9 , c, h, no2 compounds , test/train/val
+2,2-dimethyl-3-methylidenebicyclo[2.2.1]heptane , 79-92-5 , terpenes , train
+2,6,6-trimethylbicyclo[3.1.1]hept-2-ene , 80-56-8 , terpenes , test/train/val
+methyl 2-methylprop-2-enoate , 80-62-6 , unsaturated aliphatic esters , test/train/val
+1,1,1,2-tetrafluoroethane , 811-97-2 , c, h, f compounds , test/train/val
+nonan-2-one , 821-55-6 , ketones , test/train
+undec-1-ene , 821-95-4 , 1-alkenes , test/train/val
+1-methyl-2,3,4,6,7,8-hexahydropyrimido[1,2-a]pyrimidine , 84030-20-6 , unknown , val
+dimethoxy(oxo)phosphanium , 868-85-9 , unknown , test/train/val
+dec-1-ene , 872-05-9 , 1-alkenes , test/train/val
+2-ethylthiophene , 872-55-9 , sulfides/thiophenes , test
+1-methyl-2-nitrobenzene , 88-72-2 , c, h, no2 compounds , test/train/val
+5-methyl-2-propan-2-ylcyclohexan-1-ol , 89-78-1 , unknown , test/train/val
+1-methylnaphthalene , 90-12-0 , naphthalenes , test/train/val
+1,2,3,4,4a,5,6,7,8,8a-decahydronaphthalene , 91-17-8 , unknown , test/train/val
+naphthalene , 91-20-3 , naphthalenes , test/train/val
+2-methylnaphthalene , 91-57-6 , naphthalenes , test/train/val
+3-triethoxysilylpropanenitrile , 919-31-3 , silanes/siloxanes , train
+methyl docosanoate , 929-77-1 , unknown , train/val
+1-phenylpropan-1-one , 93-55-0 , unknown , test
+2-ethylnaphthalene , 939-27-5 , naphthalenes , train/val
+dimethyl cyclohexane-1,4-dicarboxylate , 94-60-0 , other saturated aliphatic esters , val
+1-benzothiophene , 95-15-8 , sulfides/thiophenes , test/train
+1,2-xylene , 95-47-6 , other alkylbenzenes , test
+1,2,4-trimethylbenzene , 95-63-6 , other alkylbenzenes , val
+3-methylpentane , 96-14-0 , methylalkanes , test/train/val
+1,2,3-trichloropropane , 96-18-4 , c3 & higher aliphatic chlorides , test/train
+pentan-3-one , 96-22-0 , ketones , test
+methyl prop-2-enoate , 96-33-3 , unsaturated aliphatic esters , test
+cyclopentanol , 96-41-3 , unknown , test/train/val
+2-methyloxolane , 96-47-9 , epoxides , test/train/val
+oxolan-2-one , 96-48-0 , other saturated aliphatic esters , test/train/val
+ethyl 2-methylpropanoate , 97-62-1 , propionates and butyrates , test/train/val
+ethyl 2-methylprop-2-enoate , 97-63-2 , unsaturated aliphatic esters , test
+2-methylpropanoyl 2-methylpropanoate , 97-72-3 , anhydrides , train/val
+butyl 2-methylprop-2-enoate , 97-88-1 , unsaturated aliphatic esters , val
+2-ethylbutan-1-ol , 97-95-0 , other aliphatic alcohols , test/train/val
+tert-butylbenzene , 98-06-6 , other alkylbenzenes , train/val
+trifluoromethylbenzene , 98-08-8 , c, h, f compounds , test/train/val
+trichloro(phenyl)silane , 98-13-5 , silanes/siloxanes , train
+1-tert-butyl-4-methylbenzene , 98-51-1 , unknown , train/val
+2-(4-methylcyclohex-3-en-1-yl)propan-2-ol , 98-55-5 , other aliphatic alcohols , test/train
+1-chloro-4-(trifluoromethyl)benzene , 98-56-6 , c, h, multihalogen compounds , val
+cumene , 98-82-8 , other alkylbenzenes , test/train/val
+1-phenylethanone , 98-86-2 , ketones , test
+nitrobenzene , 98-95-3 , c, h, no2 compounds , val
+1-methyl-3-nitrobenzene , 99-08-1 , c, h, no2 compounds , test/train/val
+1,3-di(propan-2-yl)benzene , 99-62-7 , other alkylbenzenes , train/val
+1-methyl-4-propan-2-ylcyclohexa-1,4-diene , 99-85-4 , terpenes , train/val
+1-methyl-4-propan-2-ylbenzene , 99-87-6 , other alkylbenzenes , test
+1-(4-chlorophenyl)ethanone , 99-91-2 , unknown , test
+1-methyl-4-nitrobenzene , 99-99-0 , c, h, no2 compounds , val
+2-methoxy-2-methylbutane , 994-05-8 , aliphatic ethers , test/train/val
+[dimethyl-(trimethylsilylamino)silyl]methane , 999-97-3 , silanes/siloxanes , test/train/val
