@@ -62,44 +62,37 @@ def load_model0(config):
                      )
     if "checkpoint_path" in config.keys() and config["checkpoint_path"]:
         try:
-        #if "checkpoint_path" in config.keys() and config["checkpoint_path"]:
-            try:
-                model_state, _ = torch.load(config["checkpoint_path"],
-                                            weights_only=True)
-            except ValueError:
-                model_state = torch.load(config["checkpoint_path"],
-                                         weights_only=True)
-            print("load1")
-        #else:
-        except:
-            try:
-                model_state, _ = torch.load(config["state_dict_path"],
-                                            weights_only=True)
-            except ValueError:
-                model_state = torch.load(config["state_dict_path"],
-                                         weights_only=True)        
-            print("load0")
+            model_state, _ = torch.load(config["checkpoint_path"],
+                                        weights_only=True)
+        except ValueError:
+            model_state = torch.load(config["checkpoint_path"],
+                                     weights_only=True)
+        print("loaded model from checkpoint")
         model.load_state_dict(model_state)
+    elif "state_dict_path" in config.keys():
+        try:
+            model_state, _ = torch.load(config["state_dict_path"],
+                                        weights_only=True)
+        except ValueError:
+            model_state = torch.load(config["state_dict_path"],
+                                     weights_only=True)        
+        print("loaded model from state dict")
+        model.load_state_dict(model_state)        
+    else:
+        print("no checkpoint path... no model loaded (random ini model loaded)")
     return model
 
 
 def train_loop(config_train, config, epochs=1, freeze=[],
                n_restart=1, patience=20, report_result=True):
-
-    # data_train = config["data_train"]
-    # data_val = config["data_val"]
-
     y_features = ["log_value"]
-    # scalerX = joblib.load(config["model_path"]+'Xscaler.gz')
-    # scalerY = joblib.load(config["model_path"]+'Yscaler.gz')
+
     scalerX = minmax_from_json(config["model_path"]+'Xscaler.json')
     scalerY = minmax_from_json(config["model_path"]+'Yscaler.json')
     data_train = dataset(config["data_csv_train"], y_features=y_features,
                          scalerX=scalerX, scalerY=scalerY)
     data_val = dataset(config["data_csv_val"], y_features=y_features,
                        scalerX=scalerX, scalerY=scalerY)
-    # config["data_train"] = data_train
-    # config["data_val"] = data_val
 
     dataloader = DataLoader(data_train, config_train["batch_size"],
                             shuffle=True, pin_memory=False)
